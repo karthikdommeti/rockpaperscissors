@@ -8,6 +8,7 @@ class Primes
             if(n%i==0)
             {
                 count=count+1;
+                break;
             }
         }
         if(count!=0)
